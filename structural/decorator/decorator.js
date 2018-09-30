@@ -14,7 +14,6 @@ function Insurance(macBook) {
   let v = macBook.cost()
   macBook.cost = function() { return v + 250 }
 }
-
 const mb = new MacBook()
 Memory(mb)
 Engraving(mb)
